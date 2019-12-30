@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#include "SwapNumber.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        swap1(12321, 78987);
+//        swap2(12321, 78987);
+//        swap3(12321, 78987);
     }
     return 0;
 }

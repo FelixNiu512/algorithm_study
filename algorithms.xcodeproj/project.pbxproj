@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C37F540223B9F9C50006A1D2 /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37F540523B9F9C50006A1D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C37F541023B9FEBE0006A1D2 /* SwapNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapNumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +58,26 @@
 		C37F540423B9F9C50006A1D2 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				C37F540C23B9FC010006A1D2 /* 2020 */,
 				C37F540523B9F9C50006A1D2 /* main.m */,
 			);
 			path = algorithms;
+			sourceTree = "<group>";
+		};
+		C37F540C23B9FC010006A1D2 /* 2020 */ = {
+			isa = PBXGroup;
+			children = (
+				C37F540D23B9FC200006A1D2 /* 01 */,
+			);
+			path = 2020;
+			sourceTree = "<group>";
+		};
+		C37F540D23B9FC200006A1D2 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				C37F541023B9FEBE0006A1D2 /* SwapNumber.h */,
+			);
+			path = 01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
