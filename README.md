@@ -8,8 +8,9 @@
 
 ### 12月
 
-1. [x] [交换A和B的值](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2019.12/SwapNumber.h)
+[ ] 排序算法
+[x] [交换A和B的值](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2019.12/SwapNumber.h)
 * 不借助中间变量：异或；加法。
-2. [x] [最大公约数](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2019.12/GreaterCommonDivisor.h)
+[x] [最大公约数](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2019.12/GreaterCommonDivisor.h)
 * 辗转相除法：循环；递归。
 * 更相减损法（等值算法）
