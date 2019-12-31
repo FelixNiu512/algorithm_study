@@ -8,13 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-#include "SwapNumber.h"
+#include "GreaterCommonDivisor.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        swap1(12321, 78987);
-//        swap2(12321, 78987);
-//        swap3(12321, 78987);
+        NSLog(@"gcd(24, 20) is %i", gcd3(24, 20));
+        NSLog(@"lcm(24, 20) is %i", 24*20/gcd3(24, 20));
     }
     return 0;
 }

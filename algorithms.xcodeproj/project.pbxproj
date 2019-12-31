@@ -26,6 +26,7 @@
 		C37F540223B9F9C50006A1D2 /* algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37F540523B9F9C50006A1D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C37F541023B9FEBE0006A1D2 /* SwapNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapNumber.h; sourceTree = "<group>"; };
+		C37F541523BA07D40006A1D2 /* GreaterCommonDivisor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreaterCommonDivisor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				C37F541023B9FEBE0006A1D2 /* SwapNumber.h */,
+				C37F541523BA07D40006A1D2 /* GreaterCommonDivisor.h */,
 			);
 			path = 2019.12;
 			sourceTree = "<group>";

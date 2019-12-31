@@ -9,8 +9,6 @@
 #ifndef SwapNumber_h
 #define SwapNumber_h
 
-#include <stdio.h>
-
 /**
     交换：用中间变量
  */
