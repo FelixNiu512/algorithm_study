@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-#include "GreaterCommonDivisor.h"
+#import "SortNumber.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSLog(@"gcd(24, 20) is %i", gcd3(24, 20));
-        NSLog(@"lcm(24, 20) is %i", 24*20/gcd3(24, 20));
+        int num[] = {9, 3, 4, 2, 6, 5, 8, 1, 7};
+//        sort1(num, 9);
+//        sort2(num, 9);
+//        sort3(num, 9);
+        printArray(num, 9);
     }
     return 0;
 }
