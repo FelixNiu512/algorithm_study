@@ -21,6 +21,7 @@ int gcd1(int a, int b) {
     }
     return a;
 }
+
 /**
    辗转相除法（递归）：1. 判断b是否为0，是则返回a；否则令r=a%b，a=b，b=r，重复步骤1.
 */
