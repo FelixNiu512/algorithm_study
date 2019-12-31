@@ -28,7 +28,7 @@ void sort1(int array[], int size) {
 }
 
 /**
-    选择排序
+    选择排序：标记下标
     时间复杂度：o(n²)，实际优于冒泡，因为交换次数少
  */
 void sort2(int array[], int size) {
@@ -48,7 +48,7 @@ void sort2(int array[], int size) {
 
 /**
     插入排序
-    时间复杂度：平均o(n²)
+    时间复杂度：平均o(n²)，最好是o(n)
  */
 void sort3(int array[], int size) {
     for (int i = 1; i < size; i++) if (array[i] < array[i-1]) {
@@ -63,6 +63,41 @@ void sort3(int array[], int size) {
         }
         array[j] = temp;
     }
+}
+
+/**
+    快速排序：1. 取一个数作为基准数 2. 分区：将比这个数大的放右边，小的放左边 3. 重复1、2，直到各区间只有一个数
+    时间复杂度：平均o(nlogn)，最差o(n²)
+ */
+void sort4(int array[], int left, int right) {
+    if (left >= right) {
+        return ;
+    }
+    int ll = left;
+    int rr = right;
+    int key = array[left];
+    while (ll < rr) {
+        // 右->左开始遍历找，直到找到第一个小于key的数为止
+        while (ll < rr && array[rr] >= key) {
+            rr--;
+        }
+        if (ll < rr) {
+            array[ll++] = array[rr];
+        }
+        // 左->右开始遍历找，直到找到第一个大于等于key的数为止
+        while (ll < rr && array[ll] < key) {
+            ll++;
+        }
+        if (ll < rr) {
+            array[rr--] = array[ll];
+        }
+    }
+    array[rr] = key;
+    
+    // 递归key左边区
+    sort4(array, left, ll-1);
+    // 递归key右边区
+    sort4(array, rr+1, right);
 }
 
 /**
