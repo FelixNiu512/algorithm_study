@@ -47,21 +47,18 @@ void sort2(int array[], int size) {
 }
 
 /**
-    插入排序
+    直接插入排序
     时间复杂度：平均o(n²)，最好是o(n)
  */
 void sort3(int array[], int size) {
     for (int i = 1; i < size; i++) if (array[i] < array[i-1]) {
         int temp = array[i];
-        int j = i;
-        while (j > 0) {
-            if (temp < array[j-1]) {
-                array[j] = array[j-1];
-                j--;
-            }
-            else break;
+        int j = i-1;
+        while (j >= 0 && array[j] > temp) {
+            array[j+1] = array[j];
+            j--;
         }
-        array[j] = temp;
+        array[j+1] = temp;
     }
 }
 
