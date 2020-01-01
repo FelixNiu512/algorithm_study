@@ -81,23 +81,20 @@ void sort4(int array[], int left, int right) {
         while (ll < rr && array[rr] >= key) {
             rr--;
         }
-        if (ll < rr) {
-            array[ll++] = array[rr];
-        }
-        // 左->右开始遍历找，直到找到第一个大于等于key的数为止
-        while (ll < rr && array[ll] < key) {
+        array[ll] = array[rr];
+        // 左->右开始遍历找，直到找到第一个大于key的数为止
+        while (ll < rr && array[ll] <= key) {
             ll++;
         }
-        if (ll < rr) {
-            array[rr--] = array[ll];
-        }
+        array[rr] = array[ll];
     }
-    array[rr] = key;
+    // 此时ll与rr相等
+    array[ll] = key;
     
     // 递归key左边区
     sort4(array, left, ll-1);
     // 递归key右边区
-    sort4(array, rr+1, right);
+    sort4(array, ll+1, right);
 }
 
 /**
