@@ -13,10 +13,12 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int num[] = {6, 3, 4, 2, 9, 5, 8, 1, 7};
-//        sort1(num, 9);
-//        sort2(num, 9);
-//        sort3(num, 9);
-        sort4(num, 0, 9);
+//        bubbleSort(num, 9);
+//        selectSort(num, 9);
+//        insertSort(num, 9);
+//        shellSort(num, 9);
+//        quickSort(num, 0, 9);
+        heapsortSelf(num, 9);
         printArray(num, 9);
     }
     return 0;
