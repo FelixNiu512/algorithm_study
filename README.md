@@ -6,6 +6,12 @@
 
 1. [模拟栈操作](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/StackSimulator.h)
 
+2. [二分查找](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/BinarySearch.h)
+
+3. [字符串反转](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/ReverseString.h)
+
+4. [有序数组合并](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/ArrayMergeArray.h)
+
 ## 2019年
 
 ### 12月
