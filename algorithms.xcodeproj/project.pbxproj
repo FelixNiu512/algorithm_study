@@ -29,6 +29,7 @@
 		C37F541523BA07D40006A1D2 /* GreaterCommonDivisor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreaterCommonDivisor.h; sourceTree = "<group>"; };
 		C37F541623BB21C80006A1D2 /* SortNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortNumber.h; sourceTree = "<group>"; };
 		C37F541923BDA9D10006A1D2 /* StackSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackSimulator.h; sourceTree = "<group>"; };
+		C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C37F541923BDA9D10006A1D2 /* StackSimulator.h */,
+				C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */,
 			);
 			path = 01;
 			sourceTree = "<group>";

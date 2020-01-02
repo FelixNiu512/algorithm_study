@@ -8,21 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-#import "StackSimulator.h"
+#import "BinarySearch.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // 入栈
-        for (int i = 10; i <= 20; i++) {
-            push(i);
+        int array[10];
+        for (int i = 0; i < 10; i++) {
+            array[i] = 100 + i;
+            printf("%d ", array[i]);
         }
-        
-        // 出栈
-        while (!empty()) {
-            printf("%d ", top());
-            pop();
-        }
-        printf("\n");
+        printf("\n109 的位置是 %d\n", binarySearch(array, 20, 109));
     }
     return 0;
 }
