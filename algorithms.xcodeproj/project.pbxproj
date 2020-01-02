@@ -30,6 +30,8 @@
 		C37F541623BB21C80006A1D2 /* SortNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortNumber.h; sourceTree = "<group>"; };
 		C37F541923BDA9D10006A1D2 /* StackSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackSimulator.h; sourceTree = "<group>"; };
 		C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		C37F541C23BDE8750006A1D2 /* ReverseString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseString.h; sourceTree = "<group>"; };
+		C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMergeArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,8 @@
 			children = (
 				C37F541923BDA9D10006A1D2 /* StackSimulator.h */,
 				C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */,
+				C37F541C23BDE8750006A1D2 /* ReverseString.h */,
+				C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */,
 			);
 			path = 01;
 			sourceTree = "<group>";

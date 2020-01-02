@@ -155,14 +155,4 @@ void swap(int *a, int *b)  {
     *a = *a ^ *b;
 }
 
-/**
-    打印
- */
-void printArray(int array[], int size) {
-    for (int i = 0; i < size; i++) {
-        printf("%i ", array[i]);
-    }
-    printf("\n");
-}
-
 #endif /* SortNumber_h */
