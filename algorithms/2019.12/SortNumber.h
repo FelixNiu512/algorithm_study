@@ -9,8 +9,6 @@
 #ifndef SortNumber_h
 #define SortNumber_h
 
-#include <stdio.h>
-
 void swap(int *, int *);
 
 /**

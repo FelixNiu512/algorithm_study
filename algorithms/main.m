@@ -8,18 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
-#import "SortNumber.h"
+#import "StackSimulator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int num[] = {6, 3, 4, 2, 9, 5, 8, 1, 7};
-//        bubbleSort(num, 9);
-//        selectSort(num, 9);
-//        insertSort(num, 9);
-//        shellSort(num, 9);
-//        quickSort(num, 0, 9);
-        heapsortSelf(num, 9);
-        printArray(num, 9);
+        // 入栈
+        for (int i = 10; i <= 20; i++) {
+            push(i);
+        }
+        
+        // 出栈
+        while (!empty()) {
+            printf("%d ", top());
+            pop();
+        }
+        printf("\n");
     }
     return 0;
 }
