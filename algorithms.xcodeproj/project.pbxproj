@@ -32,6 +32,7 @@
 		C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		C37F541C23BDE8750006A1D2 /* ReverseString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseString.h; sourceTree = "<group>"; };
 		C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMergeArray.h; sourceTree = "<group>"; };
+		C37F543A23BF80760006A1D2 /* NumberCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberCalculation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				C37F541A23BDDCBF0006A1D2 /* BinarySearch.h */,
 				C37F541C23BDE8750006A1D2 /* ReverseString.h */,
 				C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */,
+				C37F543A23BF80760006A1D2 /* NumberCalculation.h */,
 			);
 			path = 01;
 			sourceTree = "<group>";
