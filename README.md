@@ -12,6 +12,8 @@
 
 4. [有序数组合并](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/ArrayMergeArray.h)
 
+5. [两数相加(链表)](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/NumberCalculation.h)
+
 ## 2019年
 
 ### 12月
