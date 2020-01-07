@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C37F540623B9F9C50006A1D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F540523B9F9C50006A1D2 /* main.m */; };
+		C3F9F56423C327D600F612DA /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F56323C327D600F612DA /* TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		C37F541C23BDE8750006A1D2 /* ReverseString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseString.h; sourceTree = "<group>"; };
 		C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayMergeArray.h; sourceTree = "<group>"; };
 		C37F543A23BF80760006A1D2 /* NumberCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberCalculation.h; sourceTree = "<group>"; };
+		C3F9F56223C327D600F612DA /* algorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3F9F56323C327D600F612DA /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 		C37F540423B9F9C50006A1D2 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				C3F9F56223C327D600F612DA /* algorithms-Bridging-Header.h */,
 				C37F541323BA04530006A1D2 /* 2019.12 */,
 				C37F540C23B9FC010006A1D2 /* 2020 */,
 				C37F540523B9F9C50006A1D2 /* main.m */,
@@ -88,6 +92,7 @@
 				C37F541C23BDE8750006A1D2 /* ReverseString.h */,
 				C37F541D23BDEFA90006A1D2 /* ArrayMergeArray.h */,
 				C37F543A23BF80760006A1D2 /* NumberCalculation.h */,
+				C3F9F56323C327D600F612DA /* TwoSum.swift */,
 			);
 			path = 01;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				TargetAttributes = {
 					C37F540123B9F9C50006A1D2 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -159,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9F56423C327D600F612DA /* TwoSum.swift in Sources */,
 				C37F540623B9F9C50006A1D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,20 +285,37 @@
 		C37F540A23B9F9C50006A1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222F9N4PWP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algorithms/algorithms-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		C37F540B23B9F9C50006A1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222F9N4PWP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "algorithms/algorithms-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
