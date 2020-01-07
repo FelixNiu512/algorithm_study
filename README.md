@@ -12,7 +12,9 @@
 
 4. [有序数组合并](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/ArrayMergeArray.h)
 
-5. [两数相加(链表)](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/NumberCalculation.h)
+5. [两数相加(链表)](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/NumberCalculation.h)，来源：[leetcode题库第2题](https://leetcode-cn.com/problems/add-two-numbers/)
+
+6. [两数之和](https://github.com/ConstantCody/algorithm_study/blob/master/algorithms/2020/01/TwoSum.swift)，来源：[leetcode题库第1题](https://leetcode-cn.com/problems/two-sum/)
 
 ## 2019年
 
