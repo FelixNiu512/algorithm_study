@@ -40,12 +40,12 @@ Status list_init(LinkList *L) {
  */
 Status list_insert(LinkList L, int i, NodeDataType data) {
     // 合法性判断
-    if (L == NULL || L->size >= MAXSIZE ||
-        i < 0 || i > L->size) return LINKLIST_STATUS_FAILURE;
+    if (L == NULL || L->size >= MAXSIZE || i < 0 || i > L->size) return LINKLIST_STATUS_FAILURE;
+    
+    // 寻找目标位置的前一个结点
     LinkList preNode = L;
     int j = 0;
-    // 寻找目标位置的前一个结点
-    while (preNode && j < i) {
+    while (j < i) {
         preNode = preNode->next;
         ++j;
     }
@@ -66,10 +66,11 @@ Status list_insert(LinkList L, int i, NodeDataType data) {
 Status list_delete(LinkList L, int i) {
     // 合法性判断
     if (L == NULL || i < 0 || i >= L->size) return LINKLIST_STATUS_FAILURE;
+    
+    // 寻找目标位置的前一个结点
     LinkList preNode = L;
     int j = 0;
-    // 寻找目标位置的前一个结点
-    while (preNode && j < i) {
+    while (j < i) {
         preNode = preNode->next;
         ++j;
     }
