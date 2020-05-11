@@ -128,7 +128,9 @@ Status list_empty(LinkList L) {
     
     LinkList delNode = L->next;
     while (delNode != L) {
+        // 更改前驱结点（这里永远是头结点）的next指针指向
         L->next = delNode->next;
+        // 更改后继结点的next指针指向（永远指向头结点）
         delNode->next->prior = L;
         free(delNode);
         delNode = L->next;
