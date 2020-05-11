@@ -131,7 +131,7 @@ Status list_destroy(LinkList *L) {
 Status list_print(LinkList L) {
     if (!L || L->size == 0) return LINKLIST_STATUS_FAILURE;
     LinkList node = L->next;
-    while (node && node != L) {
+    while (node != L) {
         printf("%d\t", node->data);
         node = node->next;
     }
