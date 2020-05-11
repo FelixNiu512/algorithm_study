@@ -22,6 +22,7 @@ typedef int NodeDataType;
 typedef struct Node {
     NodeDataType data;
     struct Node *next;
+    // 结点数，仅在头结点有意义
     int size;
 } Node, *LinkList;
 
