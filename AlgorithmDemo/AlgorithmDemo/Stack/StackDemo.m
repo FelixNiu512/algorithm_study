@@ -23,13 +23,12 @@
         @"[" : @"]",
         @"{" : @"}",
     };
-    NSArray *allKeys = dict.allKeys;
     NSUInteger length = brackets.length;
     NSRange range;
     for (int i = 0; i < length; i += range.length) {
         range = [brackets rangeOfComposedCharacterSequenceAtIndex:i];
         NSString *sub = [brackets substringWithRange:range];
-        if ([allKeys containsObject:sub]) {// 左括号
+        if ([dict.allKeys containsObject:sub]) {// 左括号
             [stack push:sub];
         } else {// 右括号
             if (stack.isEmpty || ![sub isEqualToString:dict[stack.pop]]) {
