@@ -23,6 +23,8 @@
     return self;
 }
 
+#pragma mark - StackProtocol
+
 /// 元素的数量
 - (NSUInteger)size
 {
