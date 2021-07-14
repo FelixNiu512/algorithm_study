@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C3D2DFF9269ED09900227F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2DFF8269ED09900227F69 /* main.m */; };
 		C3D2E004269ED16300227F69 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E002269ED16300227F69 /* Stack.m */; };
+		C3D2E039269EF11600227F69 /* StackDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E038269EF11600227F69 /* StackDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		C3D2E001269ED16300227F69 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		C3D2E002269ED16300227F69 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		C3D2E003269ED16300227F69 /* StackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackProtocol.h; sourceTree = "<group>"; };
+		C3D2E037269EF11600227F69 /* StackDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackDemo.h; sourceTree = "<group>"; };
+		C3D2E038269EF11600227F69 /* StackDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				C3D2E001269ED16300227F69 /* Stack.h */,
 				C3D2E002269ED16300227F69 /* Stack.m */,
 				C3D2E003269ED16300227F69 /* StackProtocol.h */,
+				C3D2E037269EF11600227F69 /* StackDemo.h */,
+				C3D2E038269EF11600227F69 /* StackDemo.m */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 				TargetAttributes = {
 					C3D2DFF4269ED09900227F69 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -134,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D2E004269ED16300227F69 /* Stack.m in Sources */,
+				C3D2E039269EF11600227F69 /* StackDemo.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,20 +262,37 @@
 		C3D2DFFD269ED09900227F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222F9N4PWP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmDemo/Stack/AlgorithmDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		C3D2DFFE269ED09900227F69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 222F9N4PWP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmDemo/Stack/AlgorithmDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

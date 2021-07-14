@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取栈顶元素
 - (id)top;
 
+@optional
+
 /// 清空
 - (void)clear;
 

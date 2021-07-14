@@ -6,19 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Stack.h"
+#import "StackDemo.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Stack *stack = [[Stack alloc] init];
-        [stack push:@(11)];
-        [stack push:@(22)];
-        [stack push:@(33)];
-        [stack push:@(44)];
-        
-        while (![stack isEmpty]) {
-            NSLog(@"pop item: %lld", ((NSNumber *)[stack pop]).longLongValue);
+        NSArray<NSString *> *expArray = @[@"()[]{}", @"([)]", @"{[]}", @"{[])}"];
+        for (NSString *exp in expArray) {
+            NSLog(@"%@ isValid: %@", exp, [StackDemo isValidBrackets:exp] ? @"true" : @"false");
         }
     }
     return 0;
