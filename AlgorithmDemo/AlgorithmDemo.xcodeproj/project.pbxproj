@@ -10,6 +10,8 @@
 		C3D2DFF9269ED09900227F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2DFF8269ED09900227F69 /* main.m */; };
 		C3D2E004269ED16300227F69 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E002269ED16300227F69 /* Stack.m */; };
 		C3D2E039269EF11600227F69 /* StackDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E038269EF11600227F69 /* StackDemo.m */; };
+		C3D2E046269F199800227F69 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E045269F199800227F69 /* Queue.m */; };
+		C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,13 @@
 		C3D2E003269ED16300227F69 /* StackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackProtocol.h; sourceTree = "<group>"; };
 		C3D2E037269EF11600227F69 /* StackDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackDemo.h; sourceTree = "<group>"; };
 		C3D2E038269EF11600227F69 /* StackDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackDemo.m; sourceTree = "<group>"; };
+		C3D2E044269F199800227F69 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		C3D2E045269F199800227F69 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		C3D2E049269F19B500227F69 /* QueueProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueProtocol.h; sourceTree = "<group>"; };
+		C3D2E04C269F214A00227F69 /* DoublyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedList.h; sourceTree = "<group>"; };
+		C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedList.m; sourceTree = "<group>"; };
+		C3D2E051269F216A00227F69 /* LinkedListProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListProtocol.h; sourceTree = "<group>"; };
+		C3D2E05C269F297300227F69 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,8 @@
 		C3D2DFF7269ED09900227F69 /* AlgorithmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3D2E04A269F212000227F69 /* LinkedList */,
+				C3D2E043269F198700227F69 /* Queue */,
 				C3D2E000269ED0A200227F69 /* Stack */,
 				C3D2DFF8269ED09900227F69 /* main.m */,
 			);
@@ -73,13 +84,42 @@
 		C3D2E000269ED0A200227F69 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				C3D2E003269ED16300227F69 /* StackProtocol.h */,
 				C3D2E001269ED16300227F69 /* Stack.h */,
 				C3D2E002269ED16300227F69 /* Stack.m */,
-				C3D2E003269ED16300227F69 /* StackProtocol.h */,
 				C3D2E037269EF11600227F69 /* StackDemo.h */,
 				C3D2E038269EF11600227F69 /* StackDemo.m */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		C3D2E043269F198700227F69 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2E049269F19B500227F69 /* QueueProtocol.h */,
+				C3D2E044269F199800227F69 /* Queue.h */,
+				C3D2E045269F199800227F69 /* Queue.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		C3D2E04A269F212000227F69 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2E05C269F297300227F69 /* Node.h */,
+				C3D2E051269F216A00227F69 /* LinkedListProtocol.h */,
+				C3D2E04B269F213100227F69 /* DoublyLinkedList */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		C3D2E04B269F213100227F69 /* DoublyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2E04C269F214A00227F69 /* DoublyLinkedList.h */,
+				C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */,
+			);
+			path = DoublyLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +181,9 @@
 			files = (
 				C3D2E004269ED16300227F69 /* Stack.m in Sources */,
 				C3D2E039269EF11600227F69 /* StackDemo.m in Sources */,
+				C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,
+				C3D2E046269F199800227F69 /* Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
