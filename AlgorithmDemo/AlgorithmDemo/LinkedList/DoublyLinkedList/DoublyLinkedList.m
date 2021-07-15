@@ -24,7 +24,9 @@
 {
     self = [super init];
     if (self) {
-        self.size = 0;
+        _size = 0;
+        _first = NULL;
+        _last = NULL;
     }
     return self;
 }
@@ -155,17 +157,22 @@
 /// 清空所有元素
 - (void)clear
 {
+    if (_size == 0) {
+        return;
+    }
+    DoublyListNode *node = _first;
+    for (NSInteger i = 0; i < _size; i++) {
+        DoublyListNode *next = node->next;
+        free(node);
+        node = next;
+    }
     _size = 0;
-    if (_first != NULL) {
-        free(_first);
-    }
-    if (_last != NULL) {
-        free(_last);
-    }
+    _first = NULL;
+    _last = NULL;
 }
 
 /// 打印所有元素
-- (NSString *)toString
+- (NSString *)description
 {
     if ([self isEmpty]) {
         return @"size:0, items:[]";

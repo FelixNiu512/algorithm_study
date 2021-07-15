@@ -46,11 +46,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 清空所有元素
 - (void)clear;
 
-@optional
-
-/// 打印所有元素
-- (NSString *)toString;
-
 @end
 
 NS_ASSUME_NONNULL_END

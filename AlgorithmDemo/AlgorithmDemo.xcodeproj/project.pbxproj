@@ -12,6 +12,8 @@
 		C3D2E039269EF11600227F69 /* StackDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E038269EF11600227F69 /* StackDemo.m */; };
 		C3D2E046269F199800227F69 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E045269F199800227F69 /* Queue.m */; };
 		C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */; };
+		C3D2E066269FF4F000227F69 /* QueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E065269FF4F000227F69 /* QueueDemo.m */; };
+		C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,10 @@
 		C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedList.m; sourceTree = "<group>"; };
 		C3D2E051269F216A00227F69 /* LinkedListProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListProtocol.h; sourceTree = "<group>"; };
 		C3D2E05C269F297300227F69 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		C3D2E064269FF4F000227F69 /* QueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueDemo.h; sourceTree = "<group>"; };
+		C3D2E065269FF4F000227F69 /* QueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueDemo.m; sourceTree = "<group>"; };
+		C3D2E068269FF56500227F69 /* DoublyLinkedListDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedListDemo.h; sourceTree = "<group>"; };
+		C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedListDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 				C3D2E049269F19B500227F69 /* QueueProtocol.h */,
 				C3D2E044269F199800227F69 /* Queue.h */,
 				C3D2E045269F199800227F69 /* Queue.m */,
+				C3D2E064269FF4F000227F69 /* QueueDemo.h */,
+				C3D2E065269FF4F000227F69 /* QueueDemo.m */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -118,6 +126,8 @@
 			children = (
 				C3D2E04C269F214A00227F69 /* DoublyLinkedList.h */,
 				C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */,
+				C3D2E068269FF56500227F69 /* DoublyLinkedListDemo.h */,
+				C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */,
 			);
 			path = DoublyLinkedList;
 			sourceTree = "<group>";
@@ -182,7 +192,9 @@
 				C3D2E004269ED16300227F69 /* Stack.m in Sources */,
 				C3D2E039269EF11600227F69 /* StackDemo.m in Sources */,
 				C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */,
+				C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,
+				C3D2E066269FF4F000227F69 /* QueueDemo.m in Sources */,
 				C3D2E046269F199800227F69 /* Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

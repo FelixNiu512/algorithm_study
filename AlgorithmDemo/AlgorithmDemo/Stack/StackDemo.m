@@ -9,6 +9,15 @@
 
 @implementation StackDemo
 
+/// 测试：有效的符号
++ (void)testIsValidBrackets
+{
+    NSArray<NSString *> *expArray = @[@"()[]{}", @"([)]", @"{[]}", @"{[])}"];
+    for (NSString *exp in expArray) {
+        NSLog(@"%@ isValid: %@", exp, [StackDemo isValidBrackets:exp] ? @"true" : @"false");
+    }
+}
+
 /**
  有效的括号：leetcode_20（https://leetcode-cn.com/problems/valid-parentheses/）
  */
