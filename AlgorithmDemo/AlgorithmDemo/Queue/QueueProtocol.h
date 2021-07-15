@@ -1,6 +1,6 @@
 //
-//  StackProtocol.h
-//  Stack
+//  QueueProtocol.h
+//  AlgorithmDemo
 //
 //  Created by Cody on 2021/7/14.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol StackProtocol <NSObject>
+@protocol QueueProtocol <NSObject>
 
 @required
 
@@ -19,14 +19,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否为空
 - (BOOL)isEmpty;
 
-/// 入栈
-- (void)push:(id)element;
+/// 入队
+- (void)enqueue:(id)element;
 
-/// 出栈
-- (id)pop;
+/// 出队
+- (id)dequeue;
 
-/// 获取栈顶元素
-- (id)top;
+/// 获取队列的头元素
+- (id)front;
 
 /// 清空
 - (void)clear;
