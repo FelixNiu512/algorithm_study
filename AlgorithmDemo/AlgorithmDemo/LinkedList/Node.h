@@ -12,16 +12,16 @@
 
 // 单链表的节点
 typedef struct ListNode {
-    id element;
+    int val;
     struct ListNode *next;
 } ListNode;
 
 static inline ListNode*
-ListNodeMake(id element, struct ListNode *next)
+ListNodeMake(int val, ListNode *next)
 {
     ListNode *node = malloc(sizeof(ListNode));
     if (node != NULL) {
-        node->element = element;
+        node->val = val;
         node->next = next;
     }
     return node;
@@ -35,7 +35,7 @@ typedef struct DoublyListNode {
 } DoublyListNode;
 
 static inline DoublyListNode*
-DoublyListNodeMake(id element, struct DoublyListNode *prev, struct DoublyListNode *next)
+DoublyListNodeMake(id element, DoublyListNode *prev, DoublyListNode *next)
 {
     DoublyListNode *node = malloc(sizeof(DoublyListNode));
     if (node != NULL) {

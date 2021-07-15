@@ -8,14 +8,9 @@
 #import "DoublyLinkedList.h"
 #import "Node.h"
 
-@interface DoublyLinkedList ()
-
-@property (nonatomic, assign) NSUInteger size;
-
-@end
-
 @implementation DoublyLinkedList {
     @private
+    NSUInteger _size;
     DoublyListNode *_first;
     DoublyListNode *_last;
 }

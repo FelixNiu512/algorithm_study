@@ -79,10 +79,10 @@
 		C3D2DFF7269ED09900227F69 /* AlgorithmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3D2DFF8269ED09900227F69 /* main.m */,
 				C3D2E04A269F212000227F69 /* LinkedList */,
 				C3D2E043269F198700227F69 /* Queue */,
 				C3D2E000269ED0A200227F69 /* Stack */,
-				C3D2DFF8269ED09900227F69 /* main.m */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -114,8 +114,8 @@
 		C3D2E04A269F212000227F69 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				C3D2E05C269F297300227F69 /* Node.h */,
 				C3D2E051269F216A00227F69 /* LinkedListProtocol.h */,
+				C3D2E05C269F297300227F69 /* Node.h */,
 				C3D2E04B269F213100227F69 /* DoublyLinkedList */,
 			);
 			path = LinkedList;
