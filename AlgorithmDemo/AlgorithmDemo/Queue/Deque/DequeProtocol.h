@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol DueueProtocol <QueueProtocol>
+@protocol DequeProtocol <QueueProtocol>
 
 @required
 

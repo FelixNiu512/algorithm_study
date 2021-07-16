@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DueueProtocol.h"
+#import "DequeProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

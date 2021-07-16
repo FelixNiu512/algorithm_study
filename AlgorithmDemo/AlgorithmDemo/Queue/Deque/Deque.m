@@ -24,7 +24,7 @@
     return self;
 }
 
-#pragma mark - DueueProtocol
+#pragma mark - DequeProtocol
 
 /// 元素的数量
 - (NSUInteger)size

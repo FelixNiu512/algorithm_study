@@ -30,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C330ECA226A14FE2004E08F9 /* DueueProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DueueProtocol.h; sourceTree = "<group>"; };
+		C330ECA226A14FE2004E08F9 /* DequeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DequeProtocol.h; sourceTree = "<group>"; };
 		C330ECA426A150FE004E08F9 /* Deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deque.h; sourceTree = "<group>"; };
 		C330ECA526A150FE004E08F9 /* Deque.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deque.m; sourceTree = "<group>"; };
 		C3D2DFF5269ED09900227F69 /* AlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +67,7 @@
 		C330ECA126A138BC004E08F9 /* Deque */ = {
 			isa = PBXGroup;
 			children = (
-				C330ECA226A14FE2004E08F9 /* DueueProtocol.h */,
+				C330ECA226A14FE2004E08F9 /* DequeProtocol.h */,
 				C330ECA426A150FE004E08F9 /* Deque.h */,
 				C330ECA526A150FE004E08F9 /* Deque.m */,
 			);
