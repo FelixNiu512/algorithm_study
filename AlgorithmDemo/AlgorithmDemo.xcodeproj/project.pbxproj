@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C330ECA626A150FE004E08F9 /* Deque.m in Sources */ = {isa = PBXBuildFile; fileRef = C330ECA526A150FE004E08F9 /* Deque.m */; };
 		C3D2DFF9269ED09900227F69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2DFF8269ED09900227F69 /* main.m */; };
 		C3D2E004269ED16300227F69 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E002269ED16300227F69 /* Stack.m */; };
 		C3D2E039269EF11600227F69 /* StackDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E038269EF11600227F69 /* StackDemo.m */; };
@@ -29,6 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C330ECA226A14FE2004E08F9 /* DueueProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DueueProtocol.h; sourceTree = "<group>"; };
+		C330ECA426A150FE004E08F9 /* Deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deque.h; sourceTree = "<group>"; };
+		C330ECA526A150FE004E08F9 /* Deque.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deque.m; sourceTree = "<group>"; };
 		C3D2DFF5269ED09900227F69 /* AlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D2DFF8269ED09900227F69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3D2E001269ED16300227F69 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
@@ -60,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C330ECA126A138BC004E08F9 /* Deque */ = {
+			isa = PBXGroup;
+			children = (
+				C330ECA226A14FE2004E08F9 /* DueueProtocol.h */,
+				C330ECA426A150FE004E08F9 /* Deque.h */,
+				C330ECA526A150FE004E08F9 /* Deque.m */,
+			);
+			path = Deque;
+			sourceTree = "<group>";
+		};
 		C3D2DFEC269ED09900227F69 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +121,7 @@
 				C3D2E045269F199800227F69 /* Queue.m */,
 				C3D2E064269FF4F000227F69 /* QueueDemo.h */,
 				C3D2E065269FF4F000227F69 /* QueueDemo.m */,
+				C330ECA126A138BC004E08F9 /* Deque */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -195,6 +210,7 @@
 				C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,
 				C3D2E066269FF4F000227F69 /* QueueDemo.m in Sources */,
+				C330ECA626A150FE004E08F9 /* Deque.m in Sources */,
 				C3D2E046269F199800227F69 /* Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
