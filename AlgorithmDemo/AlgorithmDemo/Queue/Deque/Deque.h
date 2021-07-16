@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Deque : NSObject <DueueProtocol>
+@interface Deque : NSObject <DequeProtocol>
 
 @end
 
