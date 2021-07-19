@@ -8,7 +8,8 @@
 #import "DoublyLinkedList.h"
 #import "Node.h"
 
-@implementation DoublyLinkedList {
+@implementation DoublyLinkedList
+{
     @private
     NSUInteger _size;
     DoublyListNode *_first;

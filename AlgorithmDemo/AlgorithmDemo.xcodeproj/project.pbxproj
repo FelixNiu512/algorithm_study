@@ -17,6 +17,7 @@
 		C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */; };
 		C3F09AF026A5865900EDC418 /* StackByQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09AEF26A5865900EDC418 /* StackByQueue.m */; };
 		C3F09AF526A58F3400EDC418 /* StackByQueue2.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09AF426A58F3400EDC418 /* StackByQueue2.m */; };
+		C3F09AFA26A5913500EDC418 /* QueueByStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09AF926A5913500EDC418 /* QueueByStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		C3F09AEF26A5865900EDC418 /* StackByQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackByQueue.m; sourceTree = "<group>"; };
 		C3F09AF326A58F3400EDC418 /* StackByQueue2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackByQueue2.h; sourceTree = "<group>"; };
 		C3F09AF426A58F3400EDC418 /* StackByQueue2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackByQueue2.m; sourceTree = "<group>"; };
+		C3F09AF826A5913500EDC418 /* QueueByStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueByStack.h; sourceTree = "<group>"; };
+		C3F09AF926A5913500EDC418 /* QueueByStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueByStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 				C3D2E064269FF4F000227F69 /* QueueDemo.h */,
 				C3D2E065269FF4F000227F69 /* QueueDemo.m */,
 				C330ECA126A138BC004E08F9 /* Deque */,
+				C3F09AF726A5911A00EDC418 /* QueueByStack */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -163,6 +167,15 @@
 				C3F09AF426A58F3400EDC418 /* StackByQueue2.m */,
 			);
 			path = StackByQueue;
+			sourceTree = "<group>";
+		};
+		C3F09AF726A5911A00EDC418 /* QueueByStack */ = {
+			isa = PBXGroup;
+			children = (
+				C3F09AF826A5913500EDC418 /* QueueByStack.h */,
+				C3F09AF926A5913500EDC418 /* QueueByStack.m */,
+			);
+			path = QueueByStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +238,7 @@
 				C3D2E004269ED16300227F69 /* Stack.m in Sources */,
 				C3D2E039269EF11600227F69 /* StackDemo.m in Sources */,
 				C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */,
+				C3F09AFA26A5913500EDC418 /* QueueByStack.m in Sources */,
 				C3F09AF026A5865900EDC418 /* StackByQueue.m in Sources */,
 				C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,

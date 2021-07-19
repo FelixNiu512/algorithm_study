@@ -8,6 +8,7 @@
 #import "QueueDemo.h"
 #import "Queue.h"
 #import "Deque.h"
+#import "QueueByStack.h"
 
 @implementation QueueDemo
 
@@ -38,6 +39,21 @@
     [queue dequeueRear];        // 尾[55, 44, 11, 22]头
     while (![queue isEmpty]) {
         NSLog(@"dequeue item: %@", [queue dequeueFront]);
+    }
+}
+
+/**
+ 用栈实现队列：leetcode_232（https://leetcode-cn.com/problems/implement-queue-using-stacks/）
+ */
++ (void)testQueueByStack
+{
+    QueueByStack *queue = [[QueueByStack alloc] init];
+    [queue enqueue:@11];
+    [queue enqueue:@22];
+    [queue enqueue:@33];
+    [queue enqueue:@44];
+    while (![queue isEmpty]) {
+        NSLog(@"dequeue item: %@", [queue dequeue]);
     }
 }
 

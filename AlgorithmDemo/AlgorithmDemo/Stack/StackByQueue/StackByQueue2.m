@@ -8,7 +8,8 @@
 #import "StackByQueue2.h"
 #import "Queue.h"
 
-@implementation StackByQueue2 {
+@implementation StackByQueue2
+{
     Queue *_queue;
 }
 
