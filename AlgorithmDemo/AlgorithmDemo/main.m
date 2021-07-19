@@ -12,7 +12,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [QueueDemo testDeque];
+        [StackDemo testStackByQueue];
     }
     return 0;
 }

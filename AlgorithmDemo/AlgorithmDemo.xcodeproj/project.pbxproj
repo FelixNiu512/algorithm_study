@@ -15,6 +15,8 @@
 		C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E04D269F214A00227F69 /* DoublyLinkedList.m */; };
 		C3D2E066269FF4F000227F69 /* QueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E065269FF4F000227F69 /* QueueDemo.m */; };
 		C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */; };
+		C3F09AF026A5865900EDC418 /* StackByQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09AEF26A5865900EDC418 /* StackByQueue.m */; };
+		C3F09AF526A58F3400EDC418 /* StackByQueue2.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09AF426A58F3400EDC418 /* StackByQueue2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +53,10 @@
 		C3D2E065269FF4F000227F69 /* QueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueDemo.m; sourceTree = "<group>"; };
 		C3D2E068269FF56500227F69 /* DoublyLinkedListDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedListDemo.h; sourceTree = "<group>"; };
 		C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedListDemo.m; sourceTree = "<group>"; };
+		C3F09AEE26A5865900EDC418 /* StackByQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackByQueue.h; sourceTree = "<group>"; };
+		C3F09AEF26A5865900EDC418 /* StackByQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackByQueue.m; sourceTree = "<group>"; };
+		C3F09AF326A58F3400EDC418 /* StackByQueue2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackByQueue2.h; sourceTree = "<group>"; };
+		C3F09AF426A58F3400EDC418 /* StackByQueue2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackByQueue2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 				C3D2E002269ED16300227F69 /* Stack.m */,
 				C3D2E037269EF11600227F69 /* StackDemo.h */,
 				C3D2E038269EF11600227F69 /* StackDemo.m */,
+				C3F09AED26A5863300EDC418 /* StackByQueue */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -145,6 +152,17 @@
 				C3D2E069269FF56500227F69 /* DoublyLinkedListDemo.m */,
 			);
 			path = DoublyLinkedList;
+			sourceTree = "<group>";
+		};
+		C3F09AED26A5863300EDC418 /* StackByQueue */ = {
+			isa = PBXGroup;
+			children = (
+				C3F09AEE26A5865900EDC418 /* StackByQueue.h */,
+				C3F09AEF26A5865900EDC418 /* StackByQueue.m */,
+				C3F09AF326A58F3400EDC418 /* StackByQueue2.h */,
+				C3F09AF426A58F3400EDC418 /* StackByQueue2.m */,
+			);
+			path = StackByQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +225,10 @@
 				C3D2E004269ED16300227F69 /* Stack.m in Sources */,
 				C3D2E039269EF11600227F69 /* StackDemo.m in Sources */,
 				C3D2E04E269F214A00227F69 /* DoublyLinkedList.m in Sources */,
+				C3F09AF026A5865900EDC418 /* StackByQueue.m in Sources */,
 				C3D2E06A269FF56500227F69 /* DoublyLinkedListDemo.m in Sources */,
 				C3D2DFF9269ED09900227F69 /* main.m in Sources */,
+				C3F09AF526A58F3400EDC418 /* StackByQueue2.m in Sources */,
 				C3D2E066269FF4F000227F69 /* QueueDemo.m in Sources */,
 				C330ECA626A150FE004E08F9 /* Deque.m in Sources */,
 				C3D2E046269F199800227F69 /* Queue.m in Sources */,

@@ -6,6 +6,9 @@
 //
 
 #import "StackDemo.h"
+#import "Stack.h"
+#import "StackByQueue.h"
+#import "StackByQueue2.h"
 
 @implementation StackDemo
 
@@ -46,6 +49,22 @@
         }
     }
     return stack.isEmpty;
+}
+
+/**
+ 用队列实现栈：leetcode_225（https://leetcode-cn.com/problems/implement-stack-using-queues/）
+ */
++ (void)testStackByQueue
+{
+    StackByQueue2 *stack = [[StackByQueue2 alloc] init];
+    [stack push:@11];
+    [stack push:@22];
+    [stack push:@33];
+    [stack push:@44];
+    
+    while (![stack isEmpty]) {
+        NSLog(@"pop item: %lld", ((NSNumber *)[stack pop]).longLongValue);
+    }
 }
 
 @end

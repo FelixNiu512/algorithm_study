@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Stack.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,6 +22,11 @@ NS_ASSUME_NONNULL_BEGIN
  有效的括号：leetcode_20（https://leetcode-cn.com/problems/valid-parentheses/）
  */
 + (BOOL)isValidBrackets:(NSString *)brackets;
+
+/**
+ 用队列实现栈：leetcode_225（https://leetcode-cn.com/problems/implement-stack-using-queues/）
+ */
++ (void)testStackByQueue;
 
 @end
 
