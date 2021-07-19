@@ -7,6 +7,7 @@
 
 #import "QueueDemo.h"
 #import "Queue.h"
+#import "Deque.h"
 
 @implementation QueueDemo
 
@@ -20,6 +21,23 @@
     [queue enqueue:@44];
     while (![queue isEmpty]) {
         NSLog(@"dequeue item: %@", [queue dequeue]);
+    }
+}
+
+/// 测试双端队列
++ (void)testDeque
+{
+    Deque *queue = [[Deque alloc] init];
+    [queue enqueueFront:@11];
+    [queue enqueueFront:@22];
+    [queue enqueueFront:@33];   // 尾[11, 22, 33]头
+    [queue enqueueRear:@44];
+    [queue enqueueRear:@55];
+    [queue enqueueRear:@66];    // 尾[66, 55, 44, 11, 22, 33]头
+    [queue dequeueFront];       // 尾[66, 55, 44, 11, 22]头
+    [queue dequeueRear];        // 尾[55, 44, 11, 22]头
+    while (![queue isEmpty]) {
+        NSLog(@"dequeue item: %@", [queue dequeueFront]);
     }
 }
 

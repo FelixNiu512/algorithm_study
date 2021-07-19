@@ -12,7 +12,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [DoublyLinkedListDemo testHasCycle];
+        [QueueDemo testDeque];
     }
     return 0;
 }
